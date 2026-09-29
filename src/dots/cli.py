@@ -7,6 +7,8 @@ own would skip both, and a key kept in `.env` would simply not be found.
 """
 from __future__ import annotations
 
+import utils.transport
+import utils.session
 import sys
 
 #: The one subcommand this program is. Every option after it is the
